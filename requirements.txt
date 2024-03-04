@@ -1,0 +1,10 @@
+streamlit_chat
+langchain_community
+langchain
+streamlit
+langchain_core
+langchain_openai
+langchain_experimental
+tabulate 
+
+..
