@@ -1,9 +1,0 @@
-README.md
-setup.py
-Document_Based_LLM_chatbot.egg-info/PKG-INFO
-Document_Based_LLM_chatbot.egg-info/SOURCES.txt
-Document_Based_LLM_chatbot.egg-info/dependency_links.txt
-Document_Based_LLM_chatbot.egg-info/top_level.txt
-src/__init__.py
-src/helper.py
-src/prompt.py
