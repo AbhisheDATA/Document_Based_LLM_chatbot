@@ -161,3 +161,4 @@ cython_debug/
 artifacts/*
 .env
 data/temp/*
+src/__pycache__/*

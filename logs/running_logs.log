@@ -1,83 +1,3 @@
-[2024-03-05 01:29:07,966: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-03-05 01:29:07,975: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-03-05 01:29:42,990: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-03-05 01:30:41,360: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-03-05 01:30:41,362: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-03-05 01:30:41,364: INFO: common: created directory at: artifacts]
-[2024-03-05 01:30:41,365: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-03-05 01:30:43,217: INFO: 4037744573: artifacts/data_ingestion/data.zip download! with following info: 
-Content-Type: text/html; charset=utf-8
-X-Robots-Tag: noindex, nofollow, nosnippet
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: Mon, 01 Jan 1990 00:00:00 GMT
-Date: Mon, 04 Mar 2024 20:00:41 GMT
-P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
-Strict-Transport-Security: max-age=31536000; includeSubDomains
-Content-Security-Policy: require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/docs-tt
-Content-Security-Policy: base-uri 'self';object-src 'self';report-uri https://docs.google.com/spreadsheets/cspreport;script-src 'report-sample' 'nonce-Na9EUW0eMaXn24EQ69KLBQ' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';worker-src 'self' blob:
-Reporting-Endpoints: default="/spreadsheets/d/1Tmo_bmv7dqzF29iVBqmDcpyVQT80qZHY90EIBLm1DvM/web-reports?context=eJwV0XtU1VUWB_DN-e1rhagoEGmgORqFD0ZEU-Rxud7f5aGXlGDYP4JaOkKOYjJK4NJUWIwlSyiVLMSJARTwVTrg5AMCCdIxGx1GgmwcfAKCb0ASMG2-_fFZ57fO-e199j7bcZvLkYFYCn0cS_-GRw5CK1noBZNQ_BChomeF1HNCXw4VOuIkJMOFfJ2F9oD7SKE_wAkYO0roFTehb-Gku9CUF_AP1I0R8nhRKNZDyNNTaOpYoVJ4a5zQMkicIPS2l1AK1MIob6HHk4SGTREaCZOnCuX5CH3oK_QZOE8XGg89kO8n9FconSn01WyhLn-hskChL8xCNXDTJtQfIXT6daEWGBeLGg2hWaDFCblAEqRB45tCV-Hy20L34MfFiIeX_ij0XKLQaDixVOg7mJEspEM5HIWSFKEKuJ2G2uHKGqE-6MzA_XAxE99wPgv5Qf-LUAx0bBL6GVZ-ILQRKrYIfQPP5wh5weyPhMIh6mOhxfAj3AT_bUIRMPVToSDY8pnQLng5X2gmHNwpVA1PYXiBUMIevFMp9uFf5UL_g4a9Qk2w4ZBQNrj-XWgivFQhNA2oEm8NBb_5h9B-GFol9CI0VCMWAr4Wmg-tNUJ3YXStkDdEwxI4fxL9wqI6oUPwLaz7J-oFy_foCz46J1QI7o2YDXQ3Czm0IBd4wxW4D0d_whxh5GXMH7JhJ9TDBRh7TcgH8tuE9sKEdiE_qIR6OA0t0NmBmUDQXaFIaO4WaocuGID8XsTDkgGhVLBoBkVBGhv0Afze0SAzZMBWOAjVcGCoQVXwprNBy-HCaIOuQ9gEgwRcfQya-JsZBs2Ai7MM6oRh_gZ5wlMYPsegT6EM6qAR4gMNSobjQQadge0hBpVAhMWgOHDUDRoDP4UZ1AUu8w2aAF52g16D0EiDYiE_zqC9UJJgUAXMSDRIhzPQtdSgAXj5TwbNhMRlBr0HNcsNOgcLkw1aBFErDFoMEX_G3fAg1SB6z6CGNIOawDUd_UEQRILfGoOsEAYCge8bZIdJmQbNgStu_6Hpk26rOVCc0K32wb2l3epn-F1Gt5oEzQ3dqhXWevWolLwetQYK83tUGVy61qNuQKtPr2qH7fZeVQCusb3KA4Zl9Co3uO3Tp3qheVqfCgzvUzos29CnVoGe2afsEJ3Vp-LhelWfugVJyY_Uu5BX-kjtgq8C-1UNZAb1q2zYbOlXWyH0nX71OozL6VevwKbnB1QuNK0bUJdgy9kBlQe-jQPKH5p-wD4sGDWoBFqzBlU7nC8eVC1wxu8X1QiTd_2i_CBj_RO1GQ59-UQdhdnRT1UIjKVflRdkevyqsuHICNKqYZkzaavgpjtpPTA7hbQQiFlNWgKkXCRtDahrpDmCWxtpnuCY5KC173bQ-vc4aFTqoF1OVVoHVOcqrQHUKaU9c05pI-D6VaXdBY01bSicctI0u4umxUD6Qk3bCGHRmrYAmmI07RJEbtY0A-6c1bSH4D2eNV-I92VtCeTen8M7YNeIAN4NqzICeC1c7QrgTph6K4BnQuG9AC6D5L4AToVCcyCXwcMFgbxzRyAXw-n8QD4PfV8E8hNo9A5iY24QL4KO_CDuhoWVQRwPrmOC2QNapgfzZRhMDGaVFMwF14O5BOpNZj4LO0LM_Dn0GGYehCcfm9m01cxe35nZByZ2mHkKrOw3czrsXx7CFaAfDGE7lDWHcHeohQegdZ6F2yEhzsIrIOwdCx9Yb-EqsORbOAI2fW3hHdCWO5cfwu5P5vIB6K2fy4-hwc3KTeA_2coR4BVlZR_ISbfyJzCwzsoO71u57bCV74DebGU7JN2w8rtwYbzO_4U6s86NwFadnUDXdY6BcpvOR2F1qs5ZEJWjcxwElev86j6dp0H_bZ3pjs7H7yMPvPZA52CYD9GwBfKgBk6Be7fO42A8eMNBBxsfgVpl4_OghtjYEQqW2Ni-3MYxkLbKxhsgfbWNPwROt7ETRG638Vvwtzwbl8PGIpxDzz6c19rYFeo6bHwGcp1D-XNYsSKU18NgTiir3FCelRfKZqjsDON6eHArjPvhuFs4H7OH8-ELWME-GM4JkO8SwUVQ6RrBVXBsbQSfhEKHeVwGxc_M431w4o0i0zdQmFVkKoPsY0WmbTCstsjkCU32YtMNaN1fbGqH708Wm651F5vOWUtMrTDK6dmuxp2Hhzg3_rC7Tf0fGgVNRA&sid=6b27456ff9d847b4"
-Referrer-Policy: origin
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 1; mode=block
-Server: GSE
-Set-Cookie: NID=512=NprNw3GCgCEQURElS1NUCWIwKBXxncuWtpOGmifnfkXZxQ-vooH8aAZyXpBPjNMh5_l37Qanw091jT-dBWM8mH2cFoK6P-Ufxxsgue_ohc41qp_EOWBFDPDqXU9ii7OQNGpE795rlna6w0UK7SBnXd5VigAfxC5d2Gmbuhp5Xqw; expires=Tue, 03-Sep-2024 20:00:41 GMT; path=/; domain=.google.com; HttpOnly
-Set-Cookie: COMPASS=apps-spreadsheets=CmUACWuJV8YLsDV-fESw68Nnhov7no95TLetl2jolhunibp9sk7CHM2rfyQXyjk8CZvbVbzD8SzZ9HKfVj_cKxFPLbbmGjYD_KAHL6oGwPkqEPyWZcGOfELL6ceFp-BBXOdNdga05hD57JivBhp2AAlriVcEo8kaq0JUUalOB27blwAQfoLynzgkU3V_xn69yES3XkgV6EXrwQ9F9PqG9pB2eXUhZKNKZwysVqUbzEcp2tiREFboVobkj9I_L34mTbfqygDhKi3b8ih787RlAf3HZMFro-t9eqCpHdlYFMpidiO9Cg==; Domain=.docs.google.com; Expires=Mon, 04-Mar-2024 21:00:41 GMT; Path=/spreadsheets/d/1Tmo_bmv7dqzF29iVBqmDcpyVQT80qZHY90EIBLm1DvM; Secure; HttpOnly; SameSite=none
-Set-Cookie: GFE_RTT=1041; Domain=.docs.google.com; Expires=Mon, 04-Mar-2024 20:05:41 GMT; Path=/; Secure; Priority=LOW; SameSite=strict
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Accept-Ranges: none
-Vary: Accept-Encoding
-x-l2-request-path: l2-managed-6
-Connection: close
-Transfer-Encoding: chunked
-
-]
-[2024-03-05 01:38:42,830: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-03-05 01:38:42,832: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-03-05 01:38:42,833: INFO: common: created directory at: artifacts]
-[2024-03-05 01:38:42,835: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-03-05 01:38:42,837: INFO: 4037744573: File already exists of size: ~ 321 KB]
-[2024-03-05 02:17:35,260: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-03-05 02:17:35,262: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-03-05 02:17:35,264: INFO: common: created directory at: artifacts]
-[2024-03-05 02:17:35,265: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-03-05 02:17:35,266: INFO: 4037744573: File already exists of size: ~ 321 KB]
-[2024-03-05 02:18:13,140: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-03-05 02:18:13,141: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-03-05 02:18:13,142: INFO: common: created directory at: artifacts]
-[2024-03-05 02:18:13,144: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-03-05 02:18:13,145: INFO: 4037744573: File already exists of size: ~ 321 KB]
-[2024-03-05 02:23:21,055: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-03-05 02:23:21,056: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-03-05 02:23:21,058: INFO: common: created directory at: artifacts]
-[2024-03-05 02:23:21,059: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-03-05 02:23:22,710: INFO: 2515186901: artifacts/data_ingestion/BigBasket.csv download! with following info: 
-Content-Type: text/html; charset=utf-8
-X-Robots-Tag: noindex, nofollow, nosnippet
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: Mon, 01 Jan 1990 00:00:00 GMT
-Date: Mon, 04 Mar 2024 20:53:20 GMT
-P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
-Strict-Transport-Security: max-age=31536000; includeSubDomains
-Content-Security-Policy: require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/docs-tt
-Content-Security-Policy: base-uri 'self';object-src 'self';report-uri https://docs.google.com/spreadsheets/cspreport;script-src 'report-sample' 'nonce-VTbYOvTFPgDnq1Uxl1UrvA' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';worker-src 'self' blob:
-Reporting-Endpoints: default="/spreadsheets/d/1Tmo_bmv7dqzF29iVBqmDcpyVQT80qZHY90EIBLm1DvM/web-reports?context=eJwV0XtU1VUWB_DN-e1rhaiIIGmoORqGD0ZFU-TC5crv8lBIWTLsY1BLR8lBLIZIXJYK41gyQploITgEKPjORp00IZCBdJmNxMiANg74BEHLBCQvmDbf-eOzzllnr7PP2Xu7Oj2O98VT-KN4-g4eugg9axFKGCBU_LSQekbos4FCx92EZLDQNHehPeA9VOh3cApGewhN8BL6Gk57C01-VugQ1IwU8nlOKN5HaNQooSmjhcrg1TFCybB8nNBrvkKpUA0efkKPJgoNmiw0FCZNEcrzF3p_mtAn4D5daCx0Q36A0C4omyn0xWyhzkChcqvQYZtQFdx2CDmjhM6-LNQMY-LxRy00C4zFQsMgCVZDwytC16D1NaF7cGkp7sPzvxd6ZrnQCDi1QugbmJEiZMJeOAGlqUJH4e5q_B2urhHqhY5MvA-Xs7CH-o3ID-afheKgfZPQz_Dme0IboO0vyLNF6B8wPEfIF2Z_IBQJsR8KLYVLcBsCPxKKgikfCwXDlk-ECuGFfKGZcGinUCU8gcEFQol70KsynMM_9wr9F-r2CTXC-iNC2eD5N6Hx8PxRoalAx9Bv2AUFfxc6AAMrhJ6DukrchaCvhOZDaxX6BiOqhfxgESyD-tOIwZIaoSPwNdi_RT3wwQWhIhjegFqhq0nIpRk5wA-uwk9w4nvMEIa2YvaQDTuhFi7C6OtC_pB_S2gfjGsTCoBjUAtnoRk62jEPCP5RKAaautBz6IQ-WNYnlA52Q1MsrGZN78FvXTXZIBO2wiGohIMDNVXAK-6aVsLFEZpuQMQ4TQLekzRNAE9_TeP_b4amGXB5lqYOGBSoaRQ8gcFzNH0M5VADDZBg1ZQCXwZrOgfbQjWVQpRd02JwNTWNhO8jNHXCsPmaxoFvtKaXIDxGUzzkL9a0D0oTNR2FGcs1mXAOOldo6oMX_qBpJixP1vQ2VK3UdAEWpmhaArGrNC2FqD_ibbifrone1lS3WlMjeGagPgiGGAhYoykMIkDA-q6maJiYpWkOXPX6F02feFfNgZLELrUf7q3oUj_DbzK71ERoqutSLbDWt1ul5nWrNVCU363K4cr1bnUTWvx7VBtsi-5RBeAZ36N8YFBmj_KCu_69qgeapvYqa2SvMiF5fa9KAzOrV0XDoo29KgFuVPSqO5CU8lC9AXllD1UhfGF1qirICnaqbNhsd6qtEP66U70MY3KcagJsGt6ncqHxnT51Bbac71N5MK2hTwVC479xDgs8-pVAy8Z-1Qb1Jf2qGc4F_KIaYFLhLyoAMtc9VpvhyGeP1QmYveiJCoXR9KvyhSyfX1U2HB9CRiUku5ORBre9yeiG2alkhELcW2QkQuplMtaAuk6GK3jdImMUuCa5GG27XQznHheDylyM1nRltENlrjLqQJ1RxlMXlDEEblxTxo9gsGEMhDNuhhE9zDDiIGOhYWyAiEWGsQAa4wzjCsRsNgwNP5w3jAfgN5aNaZAwjY1lkPvTHN4BhUOCeDekZQbxWrjWGcQdMOVOEM-EontBXA4pvUGcDkU2K5fDgwVW3rnDyiVwNt_K9dB72MqPocEvmPXcYF4C7fnB3AULjwVzAniODGEfaJ4ewq3QvzyEVVIIF9wI4VKotdj4PHRrG_fD4w9tbNlqY99vbOwP49ttPBnedNo4Aw6sDOWjYB4K5WgobwrlrnA790HLPDu3QeJiO6-CiNftfHCdnSvAnm_nKNj0lZ13wK3cufwAdm-fywehp3YuP4I6rzBuhMBJYRwFvrFh7A85GWG8HfreCWOXd8M46WYYvwEXx5r8H6ixmdwAHGayG5imyXGw12HyCUhLN_lPEJtj8mII3mvyi_tNngrOuybTDya_dN_kEJgPiyALsqEKzoB3l8ljYCz4wVbIh0MuDj4O1crB9aAGONgVCpY5OHqlg-NgdZqD10PGWw5-HzjDwW4Qs83Br8KneQ7eCxuKEYfu_YhXO9gTatodfA5y3cP5r7BqVTivg_6ccFa54TwrL5xtcKwjgmvh_p0IdsKXXpF8MjqSP7-IFeb3R3IC5A-L4mI45hnFFXBybRSfhu0u83gXlDw1j_fDgeRiyyko2lhsKYfsk8WWj8CtutjiA43RJZab0HKgxNIG354usVzvKrHUh5VaWuG7y6WWS-Dh9nRN587PB7jff1B42Pgfi-5EWA&sid=26a66cc4db6fdead"
-Referrer-Policy: origin
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 1; mode=block
-Server: GSE
-Set-Cookie: NID=512=Gg_O_1KfDZPFM_pRdluHhwd5J1Vq9_wiH8pm43OiSqQwgeVlaR2-IyHbQiICIXBacYDoZb6LCPQKyIXafYVdtMo58b3BLTvWpSYxZmaoGtNdwlagBXL_Rns_pYz4vibg6Kg1wLLGqhPXQk7LCPny6Elinxj8zZlhJBFc1CGgQ-M; expires=Tue, 03-Sep-2024 20:53:20 GMT; path=/; domain=.google.com; HttpOnly
-Set-Cookie: COMPASS=apps-spreadsheets=CmUACWuJV8YLsDV-fESw68Nnhov7no95TLetl2jolhunibp9sk7CHM2rfyQXyjk8CZvbVbzD8SzZ9HKfVj_cKxFPLbbmGjYD_KAHL6oGwPkqEPyWZcGOfELL6ceFp-BBXOdNdga05hDQhZmvBhp2AAlriVcEo8kaq0JUUalOB27blwAQfoLynzgkU3V_xn69yES3XkgV6EXrwQ9F9PqG9pB2eXUhZKNKZwysVqUbzEcp2tiREFboVobkj9I_L34mTbfqygDhKi3b8ih787RlAf3HZMFro-t9eqCpHdlYFMpidiO9Cg==; Domain=.docs.google.com; Expires=Mon, 04-Mar-2024 21:53:20 GMT; Path=/spreadsheets/d/1Tmo_bmv7dqzF29iVBqmDcpyVQT80qZHY90EIBLm1DvM; Secure; HttpOnly; SameSite=none
-Set-Cookie: GFE_RTT=483; Domain=.docs.google.com; Expires=Mon, 04-Mar-2024 20:58:20 GMT; Path=/; Secure; Priority=LOW; SameSite=strict
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Accept-Ranges: none
-Vary: Accept-Encoding
-x-l2-request-path: l2-managed-6
-Connection: close
-Transfer-Encoding: chunked
-
-]
 [2024-04-27 22:14:24,647: INFO: common: yaml file: config\config.yaml loaded successfully]
 [2024-04-27 22:14:24,649: INFO: common: yaml file: params.yaml loaded successfully]
 [2024-04-27 22:14:24,651: INFO: common: created directory at: artifacts]
@@ -100,3 +20,108 @@ Transfer-Encoding: chunked
 [2024-04-29 15:39:24,212: INFO: helper: yaml file: config\config.yaml loaded successfully]
 [2024-04-29 16:01:15,684: INFO: helper: yaml file: config\config.yaml loaded successfully]
 [2024-04-29 16:02:44,871: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 00:41:04,610: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 00:41:17,147: INFO: RAG_Chatbot: document loaded successfully]
+[2024-04-30 00:41:56,398: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 00:41:56,417: INFO: RAG_Chatbot: document missing]
+[2024-04-30 01:30:36,506: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 01:31:25,543: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 01:31:56,072: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 01:32:49,951: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 01:56:14,369: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 01:57:44,998: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 01:58:04,948: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 01:58:04,951: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:03:07,261: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:04:02,506: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:04:02,511: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:04:06,721: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:05:30,170: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:05:45,861: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:07:16,176: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:07:16,514: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:07:54,064: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:11:04,866: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:11:04,868: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:11:04,870: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:11:40,790: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:13:57,593: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:15:06,165: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:15:31,461: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:15:31,464: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:15:31,465: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:15:40,347: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:15:54,116: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:15:54,414: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:16:36,753: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:16:50,930: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:16:56,953: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:16:56,965: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:18:01,729: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:18:04,572: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:18:04,578: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:18:26,453: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:19:11,939: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:19:11,942: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:19:11,943: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:19:15,780: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:19:21,587: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:19:34,657: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:19:39,301: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:19:45,063: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:19:45,334: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:19:45,341: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:20:02,333: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:20:22,075: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:20:24,732: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:22:54,751: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:22:57,013: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:22:58,083: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:23:02,127: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:23:05,879: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:23:05,885: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:23:09,405: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:23:09,409: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:23:35,883: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:23:43,618: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:23:43,623: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:28:11,965: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:28:11,976: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:28:14,089: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:28:14,097: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:28:17,868: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:28:17,876: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:28:18,109: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:28:18,114: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:32:02,110: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:32:02,112: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:32:07,643: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:32:14,022: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:32:20,018: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:32:37,025: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:32:38,678: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:32:38,685: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:46:23,438: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:46:23,441: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:46:25,154: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:46:37,653: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:25,794: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:36,425: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:41,929: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:47,494: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:47,742: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:47,751: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:53,055: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:53,060: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:54,191: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:54,203: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:54,458: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:54,463: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:54,648: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:54,654: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:54,903: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:54,908: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:55,094: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:47:55,231: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:48:07,899: INFO: helper: yaml file: config\config.yaml loaded successfully]
+[2024-04-30 02:48:07,903: INFO: helper: yaml file: config\config.yaml loaded successfully]

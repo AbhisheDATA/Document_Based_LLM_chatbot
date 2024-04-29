@@ -4,6 +4,7 @@ import yaml
 from src import logger
 from box import ConfigBox
 from pathlib import Path
+CONFIG_FILE_PATH = Path("config/config.yaml")
 
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """reads yaml file and returns
@@ -27,3 +28,16 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         raise ValueError("yaml file is empty")
     except Exception as e:
         raise e
+    
+
+def delte_temp_files():
+    """delete files from the './data/tmp' folder"""
+    files = read_yaml(CONFIG_FILE_PATH)
+    temp_path=files.TEMP_DIR
+    for f in temp_path:
+        try:
+            os.remove(f)
+        except:
+            pass
+
+        
