@@ -1,0 +1,22 @@
+data_root: Data
+TEMP_DIR: Data/temp
+VECTOR_STORE_DIR: Data/vector_stores
+
+LLM_providers:
+  - ":rainbow[**OpenAI**]"
+  - "**Google Generative AI**"
+  - ":hugging_face: **HuggingFace**"
+  
+OpenAI_models:
+  - "gpt-3.5-turbo-0125"
+  - "gpt-3.5-turbo"
+  - "gpt-4-turbo-preview"
+
+welcome_message:
+  english: "How can I assist you today?"
+  french: "Comment puis-je vous aider aujourd’hui ?"
+
+retriever_types:
+  - "Cohere reranker"
+  - "Contextual compression"
+  - "Vectorstore backed retriever"
