@@ -34,13 +34,37 @@ st.session_state.openai_api_key = ""
 st.session_state.google_api_key = ""
 st.session_state.cohere_api_key = ""
 st.session_state.hf_api_key = ""
+st.markdown("""
+<style>
+    [data-testid=stSidebar] {
+        background-color: #e3f988 ;
+    }
+</style>
+""", unsafe_allow_html=True)
 
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url("https://i.postimg.cc/4xgNnkfX/Untitled-design.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: local;
+}}
+[data-testid="stHeader"] {{
+background: rgba(0,0,0,0);
+}}
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 def expander_model_sidebar(
     LLM_provider="OpenAI",
     text_input_API_key="OpenAI API Key - [Get an API key](https://platform.openai.com/account/api-keys)",
     list_llm_models=["gpt-3.5-turbo-0125", "gpt-3.5-turbo", "gpt-4-turbo-preview"],
 ):
+    
     '''API KEY sidebar expanders for streamlit with models and respective parameters   '''
     st.session_state.LLM_provider = LLM_provider
 
@@ -98,7 +122,7 @@ def sidebar_and_documentSelector():
 
     with st.sidebar:
         st.caption(
-            "🚀 A retrieval augmented generation chatbot powered by 🔗 Langchain, Cohere, OpenAI, Google Generative AI and 🤗"
+            ":rainbow[**🚀 A retrieval augmented generation chatbot powered by 🔗 Langchain, Cohere, OpenAI, Google Generative AI and 🤗**]"
         )
         st.write("")
         list_LLM_providers=config_details.LLM_providers  #getting from the config file
@@ -106,8 +130,8 @@ def sidebar_and_documentSelector():
             "Select provider",
             list_LLM_providers,
             captions=[
-                "[OpenAI pricing page](https://openai.com/pricing)",
-                "Rate limit: 60 requests per minute.",
+                "**[OpenAI pricing page](https://openai.com/pricing)**",
+                "**Rate limit: 60 requests per minute.**",
                 "**Free access.**",
             ],
         )
