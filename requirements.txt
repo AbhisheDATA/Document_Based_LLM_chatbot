@@ -23,4 +23,5 @@ pathlib
 python-box==6.0.2
 tiktoken==0.5.2
 tk==0.1.0
+tkinter
 -e .
