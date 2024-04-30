@@ -122,12 +122,12 @@ def sidebar_and_documentSelector():
 
     with st.sidebar:
         st.caption(
-            ":rainbow[**🚀 A retrieval augmented generation chatbot powered by 🔗 Langchain, Cohere, OpenAI, Google Generative AI and 🤗**]"
+            "🚀:rainbow[**A retrieval augmented generation chatbot powered by 🔗 Langchain, Cohere, OpenAI, Google Generative AI and**]🤗"
         )
         st.write("")
         list_LLM_providers=config_details.LLM_providers  #getting from the config file
         llm_selection = st.radio(
-            "Select provider",
+            "**Select provider**",
             list_LLM_providers,
             captions=[
                 "**[OpenAI pricing page](https://openai.com/pricing)**",
@@ -140,7 +140,7 @@ def sidebar_and_documentSelector():
         if llm_selection == list_LLM_providers[0]:
             expander_model_sidebar(
                 LLM_provider="OpenAI",
-                text_input_API_key="OpenAI API Key - [Get an API key](https://platform.openai.com/account/api-keys)",
+                text_input_API_key=":voilet[**OpenAI API Key - [Get an API key](https://platform.openai.com/account/api-keys)**]",
                 list_llm_models=config_details.OpenAI_models
             )
 
@@ -159,10 +159,10 @@ def sidebar_and_documentSelector():
         # Assistant language
         st.write("")
         st.session_state.assistant_language = st.selectbox(
-            f"Assistant language", list(config_details.welcome_message.keys())
+            f":blue[**Assistant language**]", list(config_details.welcome_message.keys())
         )
         st.divider()
-        st.subheader("Retrievers")
+        st.subheader(":red[Retrievers]")
         retrievers = config_details.retriever_types
         if st.session_state.selected_model == "gpt-3.5-turbo":
             # for "gpt-3.5-turbo", we will not use the vectorstore backed retriever
@@ -170,12 +170,12 @@ def sidebar_and_documentSelector():
             retrievers = retrievers[:-1]
 
         st.session_state.retriever_type = st.selectbox(
-            f"Select retriever type", retrievers
+            f"**Select retriever type**", retrievers
         )
         st.write("")
         if st.session_state.retriever_type == retrievers[0]:  # Cohere
             st.session_state.cohere_api_key = st.text_input(
-                "Coher API Key - [Get an API key](https://dashboard.cohere.com/api-keys)",
+                "**Coher API Key - [Get an API key](https://dashboard.cohere.com/api-keys)**",
                 type="password",
                 placeholder="insert your API key",
             )
