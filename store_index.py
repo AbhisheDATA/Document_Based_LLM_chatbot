@@ -1,22 +1,29 @@
-from pathlib import Path
-from src.helper import read_yaml
+import streamlit as st
+import os
+import tempfile
 
-CONFIG_FILE_PATH = Path("config/config.yaml")
-config=read_yaml(CONFIG_FILE_PATH)
-path=config.TEMP_DIR
-def langchain_document_loader(TMP_DIR):
-    """
-    Load files from TMP_DIR (temporary directory) as documents. Files can be in txt, pdf, CSV or docx format.
-    """
+# Title
+st.title("File Uploader")
 
-    documents = []
+# Create a temporary directory
+temp_dir = 'Data/temp'
 
-    pdf_loader = DirectoryLoader(
-        TMP_DIR, glob="**/*.pdf", loader_cls=PyPDFLoader, show_progress=True
-    )
-    documents.extend(pdf_loader.load())
-    return documents
+# File uploader
+uploaded_file = st.file_uploader("Choose a file")
 
-documents = langchain_document_loader(path)
-print(type(documents))
-print(f"\nNumber of documents: {len(documents)}")
+# Display file details if a file is uploaded
+if uploaded_file is not None:
+    # Save the uploaded file to the temporary directory
+    file_path = os.path.join(temp_dir, uploaded_file.name)
+    with open(file_path, "wb") as f:
+        f.write(uploaded_file.read())
+
+    # Display file details
+    file_details = {"Filename": uploaded_file.name, "FileType": uploaded_file.type, "FileSize": uploaded_file.size}
+    st.write(file_details)
+
+    # Display file contents
+    st.write("File content:")
+    with open(file_path, "r") as f:
+        file_contents = f.read()
+        st.code(file_contents)

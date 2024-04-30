@@ -15,11 +15,6 @@ from src.helper import read_yaml,logger
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-# langchain prompts, memory, chains...
-from langchain.prompts import PromptTemplate, ChatPromptTemplate
-from langchain.chains import ConversationalRetrievalChain
-from langchain.memory import ConversationBufferMemory, ConversationSummaryBufferMemory
-
 from langchain.schema import format_document
 
 # Document loader
@@ -129,7 +124,7 @@ def Vectorstore_backed_retriever(
     return retriever
 
 def create_compression_retriever(
-    embeddings, base_retriever, chunk_size=200, k=16, similarity_threshold=None
+    embeddings, base_retriever, chunk_size=300, k=10, similarity_threshold=None
 ):
     """We are constructing a ContextualCompressionRetriever by encapsulating the base_retriever, which is a 
     Vectorstore-backed retriever. Within the ContextualCompressionRetriever, we incorporate a Document Compressor 
@@ -201,7 +196,7 @@ def create_retriever(
     retriever_type="Contextual compression",
     base_retriever_search_type="semilarity",
     base_retriever_k=16,
-    compression_retriever_k=20,
+    compression_retriever_k=10,
     cohere_api_key="",
     cohere_model="rerank-multilingual-v2.0",
     cohere_top_n=10,

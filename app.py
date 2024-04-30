@@ -10,6 +10,10 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 
+# langchain prompts, memory, chains...
+from langchain.prompts import PromptTemplate, ChatPromptTemplate
+from langchain.chains import ConversationalRetrievalChain
+from langchain.memory import ConversationBufferMemory, ConversationSummaryBufferMemory
 from src.helper import read_yaml,delte_temp_files
 from src.RAG_Chatbot import *
 from pathlib import Path
@@ -352,7 +356,8 @@ def chain_RAG_blocks():
                         error_message = ""
                         try:
                             temp_file_path = config_details.TEMP_DIR
-                            with open(temp_file_path, "wb") as temp_file:
+                            file_path = os.path.join(temp_file_path, uploaded_file.name)
+                            with open(file_path, "wb") as temp_file:
                                 temp_file.write(uploaded_file.read())
                         except Exception as e:
                             error_message += e
