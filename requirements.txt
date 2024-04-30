@@ -21,4 +21,5 @@ tiktoken
 pypdf
 pathlib
 python-box==6.0.2
+tkinter
 -e .
