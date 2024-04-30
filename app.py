@@ -419,8 +419,8 @@ def chain_RAG_blocks():
                             embeddings=embeddings,
                             retriever_type=st.session_state.retriever_type,
                             base_retriever_search_type="similarity",
-                            base_retriever_k=16,
-                            compression_retriever_k=20,
+                            base_retriever_k=10,
+                            compression_retriever_k=10,
                             cohere_api_key=st.session_state.cohere_api_key,
                             cohere_model="rerank-multilingual-v2.0",
                             cohere_top_n=10,
@@ -484,19 +484,19 @@ def answer_template(language="english"):
     """Pass the standalone question along with the chat history and context
     to the `LLM` wihch will answer."""
 
-    template = f"""Answer the question at the end, using only the following context (delimited by <context></context>).
-Your answer must be in the language at the end. 
+    template = f"""Answer the  question using the provided context and chat history. using only the following context (delimited by <context></context>).
+      Your answer must be in the language at the end. 
 
-<context>
-{{chat_history}}
+            <context>
+            {{chat_history}}
 
-{{context}} 
-</context>
+            {{context}} 
+            </context>
 
-Question: {{question}}
+            Question: {{question}}
 
-Language: {language}.
-"""
+            Language: {language}.
+            """
     return template
 
 

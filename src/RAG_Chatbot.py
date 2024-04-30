@@ -195,7 +195,7 @@ def create_retriever(
     embeddings,
     retriever_type="Contextual compression",
     base_retriever_search_type="semilarity",
-    base_retriever_k=16,
+    base_retriever_k=10,
     compression_retriever_k=10,
     cohere_api_key="",
     cohere_model="rerank-multilingual-v2.0",
