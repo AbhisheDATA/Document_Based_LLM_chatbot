@@ -20,5 +20,5 @@ cohere
 tiktoken
 pypdf
 pathlib
-box 
+python-box==6.0.2
 -e .

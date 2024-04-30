@@ -1,11 +1,10 @@
 import os
-from pathlib import Path
 import logging
+from pathlib import Path
 
 def setup_logger():
     logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
     return logging.getLogger(__name__)
-
 
 list_of_files = [
     "src/__init__.py",
@@ -15,32 +14,25 @@ list_of_files = [
     "setup.py",
     "research/trials.ipynb",
     "app.py",
-    "store_index.py",
     "requirements.txt",
     "config/config.yaml",
     "Data",
     "Data/docs",
-    "Docs/temp",
-    "Docs/vector_stores"
-
+    "Data/temp",
+    "Data/vector_stores"
 ]
 
-
 for filepath in list_of_files:
-   filepath = Path(filepath)
-   filedir, filename = os.path.split(filepath)
+    filepath = Path(filepath)
+    filedir = filepath.parent
 
-   if filedir !="":
-      os.makedirs(filedir, exist_ok=True)
-      logging.info(f"Creating directory; {filedir} for the file {filename}")
+    if not filedir.exists():
+        filedir.mkdir(parents=True, exist_ok=True)
+        logging.info(f"Creating directory: {filedir}")
 
-   if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
-      with open(filepath, 'w') as f:
-         pass
-         logging.info(f"Creating empty file: {filepath}")
+    if not filepath.exists() or os.path.getsize(filepath) == 0:
+        with open(filepath, 'w') as f:
+            logging.info(f"Creating empty file: {filepath}")
+    else:
+        logging.info(f"{filepath.name} already exists")
 
-   else:
-      logging.info(f"{filename} is already created")
-      
-      
-    
